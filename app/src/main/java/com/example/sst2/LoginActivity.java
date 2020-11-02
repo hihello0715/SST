@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//EditText에 현재 입력되어있는 값을 가져온다.
+//EditText에 현재 입력되어있는 값을 가져온다...
                 final String userId = et_id.getText().toString();
                 String userPass = et_pass.getText().toString();
 
